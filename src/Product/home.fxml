@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="207.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product" wrappingWidth="193.0859375">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <TextField layoutX="14.0" layoutY="107.0" promptText="Ten SP" />
+      <TextField layoutX="14.0" layoutY="184.0" promptText="Gia" />
+      <TextField layoutX="14.0" layoutY="248.0" promptText="So luong" />
+      <TextField layoutX="14.0" layoutY="321.0" promptText="Mo ta" />
+      <TextField layoutX="14.0" layoutY="389.0" promptText="Danh muc" />
+      <ListView layoutX="264.0" layoutY="107.0" prefHeight="323.0" prefWidth="322.0" />
+      <Button layoutX="69.0" layoutY="454.0" mnemonicParsing="false" onAction="Submit" prefHeight="49.0" prefWidth="159.0" text="Submit" />
+      <Button layoutX="279.0" layoutY="459.0" mnemonicParsing="false" onAction="" prefHeight="49.0" prefWidth="159.0" text="Edit" />
+      <Button layoutX="480.0" layoutY="459.0" mnemonicParsing="false" text="Delete" />
+   </children>
+</Pane>
