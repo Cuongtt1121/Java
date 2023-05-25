@@ -20,17 +20,22 @@ package examjava;
             this.title = title;
         }
 
-        public String getAuthor() {
+        public Author getAuthor() {
             return author;
+        }
+
+        public void setAuthor(Author author) {
+            this.author = author;
+        }
+
+        public Double getPrice() {
+            return price;
         }
 
         public void setPrice(Double price) {
             this.price = price;
         }
 
-        public void setAuthor(String author) {
-            this.author = author;
-        }
         public String toString(){
             return (" NameBook " + title + " Author " + author + " Price " + price);
         }
