@@ -4,9 +4,9 @@ package examjava;
 
     public class Book {
         String title;
-        String author;
+        Author author;
         Double price;
-        public Book(String title, String author, Double price){
+        public Book(String title, Author author, Double price){
             this.title = title;
             this.author = author;
             this.price = price;
